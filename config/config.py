@@ -13,8 +13,8 @@ admins = {}
 
 #------------------------ Important Stuff 🤎 -----------------------
 
-API_ID = int(getenv("API_ID", "8934899"))
-API_HASH = getenv("API_HASH", "bf3e98d2c351e4ad06946b4897374a1e")
+API_ID = int(getenv("API_ID", "28311539"))
+API_HASH = getenv("API_HASH", "9a7592276f76490009ffadd3f2b2f8a0")
 BOT_TOKEN = getenv("BOT_TOKEN", "6269545214:AAE60ylRZwBEPrkngEK4Kopi3zMq2hHnez0")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "600"))
 STRING_SESSION = getenv("STRING_SESSION", "AgCqwVKbcndeyXWg5OVJvlkk82dG5zA73Tm5zECCPrs6gk6d6zDa-EoSZfFGgK_ifhEJT85YH-wD0b6QtLU4iNelJYRLKE7UzD82RmTIvbDzxfWuyMvWx4XOBHvLhFq9BGmamLVwm1M1sndWYwBE_8zkCgHL7P9s87RGJ5bge2P9PX6X19mKzKZUy4AZYf1DNp1qnwiARj75tgPjNeOqAqS6VA2yDmxGbEX7GOOuO7btG5DnvehtFt86fXGqCEjtJHsrCid8sf2_V3Soyb1Y0Esv_hDS2pOAtDc7mRQ9r8TcdPNAiAoQb5yXYckLn4QrbKEDtdHMEh_6witYN-oM99sRAAAAAWWMR7cA")
@@ -27,7 +27,7 @@ OWNER_ID = list(
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
 #•••••••••••••••••••••••• Mongodb Url Stuff & Loggroupid •••••••••••
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001847569598")) 
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001985844147")) 
 
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 #________________________ Updates  & Music bot name________________
