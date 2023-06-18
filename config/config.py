@@ -15,14 +15,14 @@ admins = {}
 
 API_ID = int(getenv("API_ID", "8934899"))
 API_HASH = getenv("API_HASH", "bf3e98d2c351e4ad06946b4897374a1e")
-BOT_TOKEN = getenv("BOT_TOKEN", "5204315005:AAGUB2q0QafBUwjDPGRAOcruwhUdqyXVlz4")
+BOT_TOKEN = getenv("BOT_TOKEN", "6269545214:AAE60ylRZwBEPrkngEK4Kopi3zMq2hHnez0")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "600"))
-STRING_SESSION = getenv("STRING_SESSION", "AgAZiHdAd4EOX2_TFaotq0BvHmvyfNnuzW1BXj_K4vIjrDbv_c2Ii7HvAyDU-kjCHAQsEvvY-AsNtiGCQ000WasBQ6qvB4wV5Ez7XZQyNmqbe2Cyg0DUTLHGFqKx-cuZ6RuYIla3TFYNx02fRE1TK_cYmdZr2KC4PvH80JM_zSzCju99osQ8xTQGI7L4wsZmOGD7ACCZpbGt_3WM-nalZCq4gS37ubEmu1pCLc7GE5NVkyUYyG1fERP8LRisXehFuf5Ly-ZOZ8e98sr0tYBRKfLsTODFsGVWRVIYvyZ4KstWO9O54MAm5eKkasktNoBSv49KSMPiBrtmbiNFKBXTi8loAAAAAVYfLGoA")
-BOT_USERNAME = getenv("BOT_USERNAME", "LROBOT")
+STRING_SESSION = getenv("STRING_SESSION", "AgCqwVKbcndeyXWg5OVJvlkk82dG5zA73Tm5zECCPrs6gk6d6zDa-EoSZfFGgK_ifhEJT85YH-wD0b6QtLU4iNelJYRLKE7UzD82RmTIvbDzxfWuyMvWx4XOBHvLhFq9BGmamLVwm1M1sndWYwBE_8zkCgHL7P9s87RGJ5bge2P9PX6X19mKzKZUy4AZYf1DNp1qnwiARj75tgPjNeOqAqS6VA2yDmxGbEX7GOOuO7btG5DnvehtFt86fXGqCEjtJHsrCid8sf2_V3Soyb1Y0Esv_hDS2pOAtDc7mRQ9r8TcdPNAiAoQb5yXYckLn4QrbKEDtdHMEh_6witYN-oM99sRAAAAAWWMR7cA")
+BOT_USERNAME = getenv("BOT_USERNAME", "rdos9bot")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5990068364").split()))
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1854384004").split())
+    map(int, getenv("OWNER_ID", "5990068364").split())
 )  # Input type must be interger
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
@@ -31,8 +31,8 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001847569598"))
 
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 #________________________ Updates  & Music bot name________________
-NETWORK = getenv("NETWORK", "xl444")
-GROUP = getenv("GROUP", "xl444")
+NETWORK = getenv("NETWORK", "LLYOO")
+GROUP = getenv("GROUP", "LLYOO")
 BOT_NAME = getenv("BOT_NAME", "Music")
 BANNED_USERS = filters.user()
 
